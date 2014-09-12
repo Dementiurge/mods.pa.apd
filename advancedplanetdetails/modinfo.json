@@ -1,0 +1,24 @@
+{
+    "author": "Dementiurge",
+    "build": "71937",
+    "context": "client",
+    "date": "2014/09/11",
+    "description": "Shows planet details in the Lobby screen.",
+    "display_name": "Advanced Planet Details 2.1c",
+    "identifier": "com.pa.dementiurge.apd",
+    "forum": "https://forums.uberent.com/threads/rel-advanced-planet-details-71937.54290/",
+    "id": "advancedplanetdetails",
+    "priority": 100,
+    "signature": "TBD",
+    "version": "2.1c",
+    "category": [
+        "ui",
+        "lobby"
+    ],
+    "scenes": {
+        "new_game": [
+            "coui://ui/mods/apd/apd_newgame.js"
+        ]
+    },
+    "enabled": true
+}
