@@ -1,16 +1,16 @@
 {
     "author": "Dementiurge",
-    "build": "71937",
+    "build": "76843",
     "context": "client",
-    "date": "2014/09/11",
+    "date": "2015/01/16",
     "description": "Shows planet details in the Lobby screen.",
-    "display_name": "Advanced Planet Details 2.1c",
+    "display_name": "Advanced Planet Details 2.0",
     "identifier": "com.pa.dementiurge.apd",
     "forum": "https://forums.uberent.com/threads/rel-advanced-planet-details-71937.54290/",
     "id": "advancedplanetdetails",
     "priority": 100,
     "signature": "TBD",
-    "version": "2.1c",
+    "version": "2.2",
     "category": [
         "ui",
         "lobby"
