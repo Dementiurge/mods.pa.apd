@@ -1,8 +1,8 @@
 {
     "author": "Dementiurge",
-    "build": "76843",
+    "build": "77443",
     "context": "client",
-    "date": "2015/01/16",
+    "date": "2015/02/01",
     "description": "Shows planet details in the Lobby screen.",
     "display_name": "Advanced Planet Details 2.0",
     "identifier": "com.pa.dementiurge.apd",
@@ -10,7 +10,7 @@
     "id": "advancedplanetdetails",
     "priority": 100,
     "signature": "TBD",
-    "version": "2.2",
+    "version": "2.21",
     "category": [
         "ui",
         "lobby"

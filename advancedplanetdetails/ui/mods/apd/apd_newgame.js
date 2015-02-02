@@ -46,9 +46,9 @@ model.apd = (function () {
         return false;
     };
 
-	apd.planetIsCustom = function (planet) {
+	/*apd.planetIsCustom = function (planet) {
 		return (source in planet || metal_spots in planet || landing_zones in planet);
-	};
+	};*/
 
     apd.planetNameString = function (value) {
         return value || "Unnamed Planet";
@@ -117,12 +117,12 @@ model.apd = (function () {
 
         return pixels.toString() + "px";
     };
-	apd.metalspotsString = function (index) {
+	/*apd.metalspotsString = function (index) {
 		var metalVar = planetProperty(index, "metal_spots"),
 		metalspots = metalVar instanceof Array ? metalVar.length : 0;
 
 		return true;
-	};
+	};*/
 	apd.landingzonesString = function (index) {
 		var zoneVar = planetProperty(index, "landing_zones"),
 		landingzones = zoneVar instanceof Array ? zoneVar.length : 0;
@@ -219,7 +219,7 @@ newPlanetTable = '<div class="apd_table" style="position:absolute;top:90px;left:
 <span class="input_label">Metal Clusters:</span><span style="text-transform:uppercase;" data-bind="text: planet.metalClusters"></span><span>%</span><br>\
 <span class="input_label">Symmetry Type:</span><span style="text-transform:uppercase;" data-bind="text: planet.symmetryType || \'none\'"></span><br>\
 </div>\
-<div style="margin-bottom:1.0em;" data-bind="visible: (metal_spots in planet)"><span style="text-transform:uppercase;">Custom Planet</span><br></div>\
+<div data-bind="visible: (\'metal_spots\' in $data)"><span style="text-transform:uppercase;">Custom Planet</span><br></div>\
 </div><!-- Planet Table-->\
 </div><!-- Planets Container -->\
 </div>',
